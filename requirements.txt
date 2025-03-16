@@ -1,5 +1,6 @@
 numpy
 sympy
+scipy
 matplotlib
 ipykernel
 ipython
