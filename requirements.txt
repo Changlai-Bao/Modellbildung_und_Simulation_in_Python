@@ -3,7 +3,5 @@ sympy
 scipy
 control
 matplotlib
-ipykernel
-ipython
-ipywidgets
+jupyter
 notebook

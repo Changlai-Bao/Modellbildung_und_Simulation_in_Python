@@ -6,10 +6,11 @@
 - Jupyter Notebook
 - Folgende Python-Pakete:
   - numpy
+  - scipy
+  - sympy
+  - control
   - matplotlib
-  - ipykernel
-  - ipython
-  - ipywidgets
+  - jupyter
   - notebook
 
 ### Entwicklungsumgebung
@@ -19,6 +20,7 @@
    ```bash
    python -m venv .venv
    ```
+
 2. Umgebung aktivieren:
 
    ```bash
@@ -27,6 +29,7 @@
    # Linux/MacOS
    source .venv/bin/activate
    ```
+
 3. Abhängigkeiten installieren:
 
    ```bash
@@ -43,6 +46,7 @@
    sudo apt install python3 python3-pip
    pip install -r requirements.txt
    ```
+
 3. Repository klonen:
 
    ```bash
@@ -53,7 +57,10 @@
 
 ```
 .
-├── src/                               # Quellcode-Verzeichnis      
+├── src/                               # Quellcode-Verzeichnis   
+|  └── Modellierung dynamischer Systeme
+|  └── Symbolische Modellierung
+|  └── tf-Objekte
 ├── LICENSE                            # Zertifikat        
 ├── README.md                          # Diese Datei
 └── requirements.txt                   # Python-Pakete
