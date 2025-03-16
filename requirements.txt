@@ -1,6 +1,7 @@
 numpy
 sympy
 scipy
+control
 matplotlib
 ipykernel
 ipython
