@@ -2,16 +2,16 @@
 
 ## 🛠️ Softwareanforderungen
 
-- Python 3.8+
-- Jupyter Notebook
+- `Python 3.8+`
+- `Jupyter Notebook`
 - Folgende Python-Pakete:
-  - numpy
-  - scipy
-  - sympy
-  - control
-  - matplotlib
-  - jupyter
-  - notebook
+  - `numpy`
+  - `scipy`
+  - `sympy`
+  - `control`
+  - `matplotlib`
+  - `jupyter`
+  - `notebook`
 
 ### Entwicklungsumgebung
 
@@ -38,16 +38,13 @@
 
 ## ⚙️ Installation
 
-1. Raspberry Pi OS installieren
-2. Python und notwendige Pakete installieren:
+1. Python und notwendige Pakete installieren:
 
    ```bash
-   sudo apt update
-   sudo apt install python3 python3-pip
    pip install -r requirements.txt
    ```
 
-3. Repository klonen:
+2. Repository klonen:
 
    ```bash
    git clone https://github.com/Changlai-Bao/Modellbildung_und_Simulation_in_Python.git
@@ -55,17 +52,14 @@
 
 ## 📂 Projektstruktur
 
-```
-.
-├── src/                               # Quellcode-Verzeichnis   
-|  └── Modellierung dynamischer Systeme
-|  └── Symbolische Modellierung
-|  └── tf-Objekte
-├── LICENSE                            # Zertifikat        
-├── README.md                          # Diese Datei
-└── requirements.txt                   # Python-Pakete
-```
+- `src/`: Quellcode-Verzeichnis
+  - `Modellierung dynamischer Systeme/`
+  - `Symbolische Modellierung/`
+  - `tf-Objekte/`
+- `LICENSE`: MIT License
+- `README.md`: Diese Datei
+- `requirements.txt`: Python-Pakete
 
 ## 📜 Lizenz
 
-Dieses Projekt steht unter [MIT License](LICENSE)
+Dieses Projekt steht unter [`MIT License`](LICENSE)
