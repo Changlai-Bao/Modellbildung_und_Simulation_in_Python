@@ -1,54 +1,34 @@
 # Modellbildung und Simulation in Python
 
-## 🛠️ Softwareanforderungen
+## 📁Voraussetzungen
 
-- `Python 3.8+`
-- `Jupyter Notebook`
-- Folgende Python-Pakete:
-  - `numpy`
-  - `scipy`
-  - `sympy`
-  - `control`
-  - `matplotlib`
-  - `jupyter`
-  - `notebook`
+- `python>=3.13`
+- `control>=0.10.1`
+- `matplotlib>=3.10.3`
+- `notebook>=7.4.2`
+- `numpy>=2.2.5`
+- `scipy>=1.15.3`
+- `sympy>=1.14.0`
 
-### Entwicklungsumgebung
+## 🛠️Installation
 
-1. Virtuelle Umgebung erstellen:
-
-   ```bash
-   python -m venv .venv
-   ```
-
-2. Umgebung aktivieren:
-
-   ```bash
-   # Windows
-   .venv\Scripts\activate
-   # Linux/MacOS
-   source .venv/bin/activate
-   ```
-
-3. Abhängigkeiten installieren:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## ⚙️ Installation
-
-1. Python und notwendige Pakete installieren:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Repository klonen:
+1. Repository klonen:
 
    ```bash
    git clone https://github.com/Changlai-Bao/Modellbildung_und_Simulation_in_Python.git
    ```
+
+2. Abhängigkeiten installieren:
+
+   ```bash
+   uv sync
+   ```
+
+## 🚀Verwendung
+
+```bash
+uv run jupyter notebook
+```
 
 ## 📂 Projektstruktur
 
@@ -56,10 +36,14 @@
   - `Modellierung dynamischer Systeme/`
   - `Symbolische Modellierung/`
   - `tf-Objekte/`
-- `LICENSE`: MIT License
 - `README.md`: Diese Datei
-- `requirements.txt`: Python-Pakete
 
-## 📜 Lizenz
+## 📜Lizenz
 
 Dieses Projekt steht unter [`MIT License`](LICENSE)
+
+## 📫Kontakt
+
+- 📧 Email: [`changlai.bao@outlook.com`](mailto:changlai.bao@outlook.com)
+- 🐙 GitHub: [`Changlai-Bao`](https://github.com/Changlai-Bao)
+- 🌐 Webseit: [`https://Changlai-Bao.github.io`](https://Changlai-Bao.github.io)
